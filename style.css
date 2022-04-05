@@ -520,6 +520,9 @@ border-radius: 5rem;
         font-size: 50%;
 
     }
+    .home .content h3{
+        display: none;
+    }
     .socialDesk{
         display: block;
         display: flex;
