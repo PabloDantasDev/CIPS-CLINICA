@@ -126,6 +126,7 @@ header label{
 .social a{
 display: block;
 margin-top: 4rem;
+margin-left: -40rem;
 }
 .social a:hover{
  transform: scale(1.1);
@@ -151,16 +152,19 @@ margin-top: 4rem;
 .home{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background: url(images/home-bg-img.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.home .image img{
+.home .image {
 
-    width: 35vw;
-    
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vh;
     animation: float 6.5s linear infinite;
 }
 
