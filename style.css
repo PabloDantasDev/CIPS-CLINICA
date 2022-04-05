@@ -13,7 +13,7 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    text-transform: capitalize;
+    
     list-style: none;
 }
 
@@ -155,7 +155,7 @@ margin-top: 4rem;
 
 .home .image img{
 
-    width: 40vw;
+    width: 35vw;
     
     animation: float 6.5s linear infinite;
 }
