@@ -7,6 +7,10 @@
     --gradient:linear-gradient(90deg, var(--purple), var(--pink));
 }
 
+#sections{
+   height: 50vh;
+}
+
 *{
     font-family: 'Poppins', sans-serif;
     margin:0; padding:0;
@@ -344,7 +348,8 @@ border-radius: 5rem;
   
     background: white;
     margin: 1rem;
-    
+    margin-bottom: -30vh;
+    padding: 2rem;
     text-align: center;
     position: relative;
     border:  .1rem solid rgba(0, 0, 0, 0.103);
@@ -353,6 +358,16 @@ border-radius: 5rem;
     border-radius: 1rem;
 
 }
+.review .box-container .box:nth-child(2){
+  
+  padding: 3rem;
+
+}
+.review .box-container .box:nth-child(3){
+  
+    padding: 5.2rem;
+  
+  }
 .review .box-container .box .fa-quote-right{
 
     position: absolute;
