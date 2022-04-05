@@ -523,6 +523,10 @@ border-radius: 5rem;
     .home .content h3{
         display: none;
     }
+
+    .home .content  a{
+        display: none;
+    }
    
     .socialDesk{
         display: block;
