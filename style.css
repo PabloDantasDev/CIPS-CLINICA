@@ -341,9 +341,10 @@ border-radius: 5rem;
 }
 
 .review .box-container .box{
+  
     background: white;
     margin: 1rem;
-    padding: 1rem;
+    
     text-align: center;
     position: relative;
     border:  .1rem solid rgba(0, 0, 0, 0.103);
@@ -368,12 +369,14 @@ border-radius: 5rem;
     
 }
 
-.review .box-container .box .user img{
-    border-radius: 50%;
-    object-fit: cover;
-    height: 7rem;
-    width: 7rem;
+.review .box-container  .user img{
+   
+    
+    object-fit: fill;
     margin-top: 2rem;
+    height: 30rem;
+    width: 15rem;
+   
     
 }
 
@@ -389,10 +392,68 @@ border-radius: 5rem;
     padding: 1rem 0;
 }
 
+.profissionais .box-container{
+    border: 1px solid rgba(8, 8, 8, 0.068);
+    padding: .6rem;
+    box-shadow: 0 .5rem 1rem  rgba(0, 0, 0,.5);
+    border-radius: .8rem;
+}
+
+.profissionais .box-container img{
+    height: 40rem;
+    width: 30rem;
+    margin-right: 4rem;
+    border-radius: 2px;
+}
+#fotoR{
+    width: 55rem;
+}
+
+.profissionais .box-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+     margin-bottom: 2rem;
+}
 
 
+.profissionais .box-container h3 {
+    color: #0ccc26;
+    font-size: 2.9rem;
+    
+}
+.profissionais .box-container h4 {
+    color: #0ccc26;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.profissionais .box-container  {
+   
+    font-size: 1.3rem;
+}
+span{
+    color: #0ccc26;
+}
+.profissionais .box-container span {
+    color: #0ccc26;
+    font-size: 1.4rem;
+}
 
+.enderecos{
+   border: .1rem solid rgba(0, 0, 0, 0.041);
+}
+.map{
+   display: block;
+   text-align: center;
 
+}
+
+ h3{
+   text-align: center;
+    font-size: 2rem;
+    color: #666;
+}
 
 
 
@@ -555,17 +616,48 @@ border-radius: 5rem;
         margin: 1rem 0;
         
     }
+    .profissionais .box-container{
+        display: block;
+    }
+    .profissionais .box-container{
+        text-align: center;
+    }
+    .profissionais .box-container img{
+        width: 25rem;
+        height: 35rem;
+        margin-left: 4.5rem;
+    }
+    #fotoR{
+        width: 25rem;
+        height: 35rem;
+        margin-left: 4.5rem;
+    }
+    .map iframe{
+        display: block;
+        width: auto;
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+        
+    }
+   
 }
 
-.pricing .box-container{
+.pricing .box-container {
 
     display: flex;
-    justify-content: center;
+   
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
+.pricing .box-container img{
+
+   height: 40rem;
+   width: 30rem;
+}
 
 .pricing .box-container .box{
+    display: flex;
     border-radius: .5rem;
     flex: 1 1 27rem;
     margin: 1rem;
@@ -754,6 +846,8 @@ text-transform: none;
 
     .credit{
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.2rem;
         color: white;
+        font-family: Arial, Helvetica, sans-serif;
     }
+
