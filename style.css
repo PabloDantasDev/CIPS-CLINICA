@@ -17,7 +17,7 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    
+    user-select: none;
     list-style: none;
 }
 
@@ -126,25 +126,47 @@ header label{
 .social a{
 display: block;
 margin-top: 4rem;
+
 margin-left: -40rem;
 }
-.social a:hover{
- transform: scale(1.1);
-    }
+
 .fa-facebook {
     color: rgb(21, 149, 235);
    font-size: 5rem;
    
 }
+.fa-facebook:hover {
+    color: rgb(18, 90, 138);
+   font-size: 5rem;
+   
+
+}
+
+
+
 .fa-instagram {
     color: rgb(228, 21, 235);
    font-size: 5rem;
 }
+.fa-instagram:hover {
+    color: rgb(151, 39, 155);
+   font-size: 5rem;
+}
+
+
+
 
 .fa-whatsapp{
     color: rgb(28, 160, 72);
     font-size: 5rem;
 }
+.fa-whatsapp:hover{
+    color: rgb(18, 104, 47);
+    font-size: 5rem;
+}
+
+
+
 
 .socialDesk{
     display: none;
