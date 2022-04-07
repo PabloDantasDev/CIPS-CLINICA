@@ -266,9 +266,11 @@ box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.205);
 margin: 1.5rem;
 padding: 4rem 2rem;
 text-align: center;
-transition: 2s linear;
+transition: 0.1s;
+
 
 }
+
 .features .box-container .box img{
     height: 20rem;
    
@@ -337,6 +339,7 @@ transition: 2s linear;
 
   
     width: 100%;
+    height: 45rem;
     text-align: center;
     padding: 3rem 1rem;
    background-color:var(--pink);
@@ -356,9 +359,16 @@ transition: 2s linear;
 
 
 .newsletter .iframe{
-    display: none;
-}
+   
+margin-left: 3rem;
 
+}
+.newsletter .iframeCel{
+   
+    display: none;
+    }
+
+    
 
 .review .box-container{
 display: flex;
@@ -605,6 +615,10 @@ span{
         }
 
         .newsletter .iframe{
+            display: none;
+            margin-left: 1.7rem;
+        }
+        .newsletter .iframeCel{
             display: block;
             margin-left: 1.7rem;
         }
